@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://geoscience.data.qld.gov.au/api/3/action/status_show
 common:
+  - type: DomainSecurity
+    url: security/geoscience-data-qld-gov-au-domain-security.yml
   - type: Website
     url: https://geoscience.data.qld.gov.au
   - type: Documentation
